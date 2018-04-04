@@ -16,5 +16,5 @@ function palindrome($str)
         $reversedString = $character . $reversedString;
     }
 
-    return $reversedString === $str ? true : false;
+    return $reversedString === $str;
 }
